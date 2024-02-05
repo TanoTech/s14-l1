@@ -9,7 +9,7 @@ CREATE TABLE [dbo].[Cliente](
 	[DataNascita] [date] NOT NULL,
 	[Sesso] [char](1) NOT NULL,
 	[CF] [char](16) NOT NULL,
-	[P.IVA] [char](11) NOT NULL,
+	[PIVA] [char](11) NOT NULL,
 	[Attivo] [bit] NOT NULL,
 	[Saldo] [money] NOT NULL
 ) ON [PRIMARY]
