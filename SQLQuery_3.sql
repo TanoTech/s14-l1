@@ -10,7 +10,7 @@ CREATE TABLE [dbo].[Operaio](
 	[FigliACarico] [int] NOT NULL,
 	[Sposato] [int] NOT NULL,
 	[LivelloLavorativo] [int] NOT NULL,
-	[DescrizioneMansione] [int] NOT NULL,
+	[DescrizioneMansione] [nvarchar](50) NOT NULL,
 	[Salario] [money] NOT NULL
 ) ON [PRIMARY]
 GO
